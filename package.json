@@ -4,14 +4,14 @@
   "description": "FiveM Server Status",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js",
+    "start": "node index.js",
     "update": "git pull && npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Douile / Roque",
   "license": "GPL-3.0",
   "dependencies": {
-    "discord.js": "^11.4.2",
+    "discord.js": "^11.6.4",
     "fetch-timeout": "0.0.2",
     "libsodium-wrappers": "^0.7.4",
     "node-fetch": "^2.3.0",
@@ -21,6 +21,14 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/PADOJRP/FivemServerStatus.git"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-html": "^6.0.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
   }
 }
