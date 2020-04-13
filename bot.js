@@ -189,7 +189,7 @@ exports.start = function (SETUP) {
 					// }
 					fields[0] = `**Connected:**`;
 					for (var i = 0; i < players.length; i++) {
-						fields[(i + 1) % fieldCount] += `${players[i].name.substr(0, 12)}\n`; // first 12 characters of players name
+						fields[(i + 1) % fieldCount] += `\n${players[i].name.substr(0, 12)}`; // first 12 characters of players name
 					}
 					for (var i = 0; i < fields.length; i++) {
 						const field = fields[i];
