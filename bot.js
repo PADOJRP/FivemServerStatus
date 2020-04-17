@@ -175,8 +175,8 @@ exports.start = function (SETUP) {
 				const queue = vars.Queue;
 				const embed = UpdateEmbed()
 					.addField('\n\u200b\nServer Status', ':white_check_mark: Online', true)
-					.addField('\n\u200b\nOnline Players', `${players.length}/${MAX_PLAYERS}`, true);
-					.addField('\n\u200b\nQueue', queue === 'Enabled' || queue === undefined ? '0' : queue.split(':')[1].trim(), true)
+					.addField('\n\u200b\nOnline Players', `${players.length}/${MAX_PLAYERS}`, true)
+					.addField('\n\u200b\nQueue', queue === 'Enabled' || queue === undefined ? '0' : queue.split(':')[1].trim(), true);
 
 				// .addField('\u200b','\u200b\n\u200b\n',true);
 				if (players.length > 0) {
