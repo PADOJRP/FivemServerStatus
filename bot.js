@@ -69,7 +69,7 @@ exports.start = function (SETUP) {
 	const LOG_CHANNEL = SETUP.LOG_CHANNEL;
 	const STREAM_URL = SETUP.STREAM_URL;
 	const STREAM_CHANNEL = SETUP.STREAM_CHANNEL;
-	const UPDATE_TIME = 2500; // in ms
+	const UPDATE_TIME = 30000; // in ms
 
 	let TICK_N = 0;
 	let MESSAGE;
