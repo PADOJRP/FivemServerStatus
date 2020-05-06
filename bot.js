@@ -151,7 +151,7 @@ exports.start = function (SETUP) {
 			.setFooter(TICK_N % 2 === 0 ? '⚪ Last Checked' : '⚫ Last Checked')
 			.setTimestamp(new Date())
 			.addField('\n\u200b\nWebsite:', '[PADOJRP.net](https://padojrp.net/)', false)
-			.addField('\n\u200b\nServer IP:', '`172.96.165.214:30120`', false);
+			.addField('\n\u200b\nServer IP:', '`public.padojrp.net` \n\n or \n\n `172.96.165.214:30120`', false);
 
 		return embed;
 	};
